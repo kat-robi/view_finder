@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin: 10px;
+}
+
+#map {
+  height: 90vh;
+}
+
+/* overlay */
+#photoOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#photoOverlay img {
+  max-width: 90%;
+  max-height: 80%;
+}
+
+#closeBtn {
+  margin-bottom: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
