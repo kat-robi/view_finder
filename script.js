@@ -10,7 +10,7 @@ const closeBtn = document.getElementById("closeBtn");
 
 closeBtn.onclick = () => overlay.classList.add("hidden");
 
-const basePath = "/view_finder";
+const basePath = ".";
 
 const locations = [
   { name: "Paris", coords: [48.8566, 2.3522], photos: [`${basePath}/images/paris1.jpg`,`${basePath}/images/paris2.jpg`] },
