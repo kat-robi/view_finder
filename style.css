@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
   background: #3e853a;
   color: white;
   text-align: center;
@@ -9,29 +9,30 @@ body {
 /* HEADER SECTION */
 .hero {
   background: #3e853a;
-  padding: 25px 0 10px 0;
+  padding: 30px 0 15px 0;
 }
 
 /* MAIN TITLE */
 .title {
-  font-size: 52px;
-  font-weight: 700;
-  color: white;
+  font-family: 'Bebas Neue', sans-serif; /* retro bold font */
+  font-size: 64px;
+  letter-spacing: 4px;
+  color: #f5f5dc; /* slight vintage off-white */
 
   text-shadow:
-    2px 2px 6px rgba(0, 0, 0, 0.25);
+    3px 3px 0px #2d5f2a,   /* dark green offset */
+    6px 6px 10px rgba(0, 0, 0, 0.3);
 
-  letter-spacing: 2px;
   margin: 0;
 }
 
 /* SUBTITLE */
 .subtitle {
-  font-size: 15px;
-  color: white;
-  margin-top: 6px;
-  letter-spacing: 1px;
-  font-family: Arial, sans-serif;
+  font-family: 'Courier New', monospace; /* retro typewriter vibe */
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #e8e4c9;
+  margin-top: 8px;
 }
 
 /* MAP */
