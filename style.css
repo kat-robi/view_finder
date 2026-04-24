@@ -14,27 +14,25 @@ body {
 
 /* MAIN TITLE */
 .title {
-  font-family: 'Oi', sans-serif; /* retro bold font */
-  font-size: 35px;
-  letter-spacing: 4px;
-  color: #f5f5dc; /* slight vintage off-white */
+  font-family: 'Oi', cursive;
+  font-size: 35px; /* updated */
+  letter-spacing: 2px;
+  color: #f5f5dc;
 
   text-shadow:
-  2px 2px 0 #d9c7a3,
-  4px 4px 0 #b89a6a,
-  6px 6px 0 #8a6b47,
-  8px 8px 12px rgba(0,0,0,0.6);
+    2px 2px 0 #2d5f2a,
+    4px 4px 8px rgba(0, 0, 0, 0.25);
 
   margin: 0;
 }
 
 /* SUBTITLE */
 .subtitle {
-  font-family: 'Courier New', monospace; /* retro typewriter vibe */
+  font-family: 'Courier New', monospace;
   font-size: 14px;
   letter-spacing: 2px;
   color: #e8e4c9;
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
 /* MAP */
