@@ -9,19 +9,19 @@ body {
 /* HEADER SECTION */
 .hero {
   background: #3e853a;
-  padding: 6px 0 3px 0;
+  padding: 4px 0 2px 0;
 }
 
 /* MAIN TITLE */
 .title {
   font-family: 'Caprasimo', serif;
-  font-size: 35px; /* updated */
+  font-size: 20px; /* updated */
   letter-spacing: 2px;
   color: #f5f5dc;
 
   text-shadow:
-    2px 2px 0 #2d5f2a,
-    4px 4px 8px rgba(0, 0, 0, 0.25);
+    1px 1px 0 #2d5f2a,
+    2px 2px 4px rgba(0, 0, 0, 0.2);
 
   margin: 0;
 }
@@ -29,10 +29,10 @@ body {
 /* SUBTITLE */
 .subtitle {
   font-family: 'Courier New', monospace;
-  font-size: 14px;
-  letter-spacing: 2px;
+  font-size: 10px;
+  letter-spacing: 1px;
   color: #e8e4c9;
-  margin-top: 10px;
+  margin-top: 2px;
 }
 
 /* MAP */
