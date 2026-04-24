@@ -1,16 +1,44 @@
 body {
   margin: 0;
-  font-family: Arial;
+  font-family: 'Playfair Display', serif;
   background: black;
   color: white;
   text-align: center;
 }
 
-h1 {
-  margin: 10px;
+/* HEADER SECTION */
+.hero {
+  background: black;
+  padding: 30px 0 10px 0;
 }
 
+/* MAIN TITLE */
+.title {
+  font-size: 64px;
+  font-weight: bold;
+  color: #f5e6c8; /* warm vintage cream */
+
+  text-shadow:
+    2px 2px 0 #d4b483,
+    4px 4px 0 #b8966b,
+    6px 6px 0 #8c6a4f,
+    8px 8px 12px rgba(0,0,0,0.7);
+
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+/* SUBTITLE */
+.subtitle {
+  font-size: 16px;
+  color: #d4c3a3;
+  margin-top: 8px;
+  letter-spacing: 1px;
+  font-family: Arial, sans-serif;
+}
+
+/* MAP */
 #map {
-  height: 90vh;
+  height: 85vh;
   width: 100%;
 }
