@@ -1,28 +1,27 @@
 body {
   margin: 0;
   font-family: 'Playfair Display', serif;
-  background: black;
-  color: white;
+  background: #cfe9ff;
+  color: #1f2a44;
   text-align: center;
 }
 
 /* HEADER SECTION */
 .hero {
-  background: black;
-  padding: 30px 0 10px 0;
+  background: transparent;
+  padding: 25px 0 10px 0;
 }
 
 /* MAIN TITLE */
 .title {
-  font-size: 64px;
-  font-weight: bold;
-  color: #f5e6c8; /* warm vintage cream */
+  font-size: 52px;
+  font-weight: 700;
+  color: #1f2a44;
 
   text-shadow:
-    2px 2px 0 #d4b483,
-    4px 4px 0 #b8966b,
-    6px 6px 0 #8c6a4f,
-    8px 8px 12px rgba(0,0,0,0.7);
+    1px 1px 0 #ffffff,
+    2px 2px 0 #a7c7e7,
+    4px 4px 10px rgba(0, 0, 0, 0.15);
 
   letter-spacing: 2px;
   margin: 0;
@@ -30,9 +29,9 @@ body {
 
 /* SUBTITLE */
 .subtitle {
-  font-size: 16px;
-  color: #d4c3a3;
-  margin-top: 8px;
+  font-size: 15px;
+  color: #3d5a80;
+  margin-top: 6px;
   letter-spacing: 1px;
   font-family: Arial, sans-serif;
 }
