@@ -20,8 +20,10 @@ body {
   color: #f5f5dc; /* slight vintage off-white */
 
   text-shadow:
-    3px 3px 0px #2d5f2a,   /* dark green offset */
-    6px 6px 10px rgba(0, 0, 0, 0.3);
+  2px 2px 0 #d9c7a3,
+  4px 4px 0 #b89a6a,
+  6px 6px 0 #8a6b47,
+  8px 8px 12px rgba(0,0,0,0.6);
 
   margin: 0;
 }
