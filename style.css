@@ -1,14 +1,14 @@
 body {
   margin: 0;
   font-family: 'Playfair Display', serif;
-  background: #bfe8c2;
+  background: #3e853a;
   color: white;
   text-align: center;
 }
 
 /* HEADER SECTION */
 .hero {
-  background: #bfe8c2;
+  background: #3e853a;
   padding: 25px 0 10px 0;
 }
 
