@@ -171,7 +171,7 @@ L.marker([21.3069, -157.8583]).addTo(map)
 // Washington, D.C.
 L.marker([38.9072, -77.0369]).addTo(map)
   .bindPopup(`
-    <h3>Washington, D.C.</h3>
+    <h3>Washington, DC</h3>
     <img src="images/dc1.jpg" width="200">
   `);
 
@@ -185,7 +185,7 @@ L.marker([46.4312, 6.9107]).addTo(map)
 // Reykjavík
 L.marker([64.1466, -21.9426]).addTo(map)
   .bindPopup(`
-    <h3>Reykjavík</h3>
+    <h3>Reykjavik</h3>
     <img src="images/iceland1.jpg" width="200">
   `);
 
@@ -206,7 +206,7 @@ L.marker([39.7217, 21.6300]).addTo(map)
 // Québec City
 L.marker([46.8139, -71.2080]).addTo(map)
   .bindPopup(`
-    <h3>Québec City</h3>
+    <h3>Quebec City</h3>
     <img src="images/quebec1.jpg" width="200">
   `);
 
