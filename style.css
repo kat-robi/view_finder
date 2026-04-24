@@ -9,13 +9,13 @@ body {
 /* HEADER SECTION */
 .hero {
   background: #3e853a;
-  padding: 25px 0 15px 0;
+  padding: 20px 0 10px 0;
 }
 
 /* MAIN TITLE */
 .title {
   font-family: 'Oi', sans-serif; /* retro bold font */
-  font-size: 50px;
+  font-size: 40px;
   letter-spacing: 4px;
   color: #f5f5dc; /* slight vintage off-white */
 
