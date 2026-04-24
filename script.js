@@ -1,6 +1,7 @@
+// Create map centered on Paris
+var map = L.map('map').setView([48.8566, 2.3522], 5);
 
-var map = L.map('map').setView([48.8566, 2.3522], 5); // Paris
-
+// Add map tiles
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: 'Map data © OpenStreetMap contributors'
 }).addTo(map);
@@ -8,7 +9,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // Add marker
 var marker = L.marker([48.8566, 2.3522]).addTo(map);
 
-// When clicked → show image
+// Popup with image
 marker.bindPopup(`
   <h3>Paris</h3>
   <img src="images/paris1.jpg" width="200">
