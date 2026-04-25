@@ -9,7 +9,7 @@ body {
 /* HEADER SECTION */
 .hero {
   background: #3e853a;
-  padding: 12px 0 4px 0;
+  padding: 10px 0 4px 0;
 }
 
 /* MAIN TITLE */
@@ -37,6 +37,6 @@ body {
 
 /* MAP */
 #map {
-  height: 110vh;
+  height: 100vh;
   width: 100%;
 }
