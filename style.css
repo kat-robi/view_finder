@@ -6,16 +6,14 @@ body {
   text-align: center;
 }
 
-/* HEADER SECTION */
 .hero {
   background: #3e853a;
   padding: 14px 0 4px 0;
 }
 
-/* MAIN TITLE */
 .title {
   font-family: 'Caprasimo', serif;
-  font-size: 23px; /* updated */
+  font-size: 23px; 
   letter-spacing: 2px;
   color: #f5f5dc;
 
@@ -26,7 +24,6 @@ body {
   margin: 0;
 }
 
-/* SUBTITLE */
 .subtitle {
   font-family: 'Courier New', monospace;
   font-size: 10px;
@@ -35,7 +32,6 @@ body {
   margin-top: .5px;
 }
 
-/* MAP */
 #map {
   height: 100vh;
   width: 100%;
